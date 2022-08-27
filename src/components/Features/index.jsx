@@ -43,11 +43,11 @@ const Features = () => {
       align="center"
       textAlign="center"
       spacing="4"
-      position={["relative", "relative", "relative", "relative"]}
+      position="relative"
     >
       <Image
         position="absolute"
-        zIndex="0"
+        zIndex="1"
         left="0"
         top="0"
         src={img1}
@@ -61,7 +61,7 @@ const Features = () => {
         src={img2}
         alt="image2"
       />
-      <Heading fontSize={{ base: "4xl", md: "5xl" }}>
+      <Heading fontSize={{ base: "4xl", md: "5xl" }} zIndex="2">
         Let's Travelling and Hit The Trip
       </Heading>
       <Heading fontSize={{ base: "md", md: "2xl" }} color="gray.600">
