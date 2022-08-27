@@ -9,6 +9,10 @@ const theme = extendTheme({
     heading: "Poppins, system-ui, sans-serif",
     monospace: "Menlo, monospace",
   },
+  config: {
+    useSystemColorMode: false,
+    initialColorMode: "light",
+  },
 });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
